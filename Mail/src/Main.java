@@ -16,9 +16,9 @@ import javax.mail.Session;
       Port for TLS/STARTTLS: 587
       */
      public static void main(String[] args) {
-         final String fromEmail = "vaktitanzim@gmail.com"; //requires valid gmail id
-         final String password = "Asd12345."; // correct password for gmail id
-         final String toEmail = "ahmettkuris@gmail.com"; // can be any email id
+         final String fromEmail = "yourmail@gmail.com"; //requires valid gmail id
+         final String password = "sifre"; // correct password for gmail id
+         final String toEmail = "smail@gmail.com"; // can be any email id
 
          System.out.println("TLSEmail Start");
          Properties props = new Properties();
